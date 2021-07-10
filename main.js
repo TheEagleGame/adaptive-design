@@ -22,7 +22,7 @@ const headerSearch = document.querySelector('.header-search')
 const searchIcon = document.querySelector('.header-search__icon')
 const searchText = document.querySelector('.header-search__text')
 window.addEventListener('scroll', () => {
-    if (window.scrollY) {
+    if (window.scrollY && window.outerWidth < 1440) {
         headerSearch.classList.add('header-search_small')
         searchIcon.classList.add('header-search__icon_none')
         searchText.classList.add('header-search__text_scale')

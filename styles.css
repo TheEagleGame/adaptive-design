@@ -444,12 +444,13 @@ h6 {
 
 @media screen and (min-width: 1440px) {
     .header {
-        padding: 40px 60px 40px 306px;
+        padding: 40px 60px 0 306px;
         align-items: flex-start;
     }
     .header-search {
         width: 100%;
         justify-content: left;
+        margin: 35px 0 40px 0;
     }
     .nav-wrapper {
         left: -135px;
