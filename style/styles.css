@@ -1,7 +1,7 @@
-@import "style/header.css";
-@import "style/nav.css";
-@import "style/card.css";
-@import "style/media-query.css";
+@import "header.css";
+@import "nav.css";
+@import "card.css";
+@import "media-query.css";
 
 * {
     padding: 0;
