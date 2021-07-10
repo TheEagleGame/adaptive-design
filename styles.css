@@ -33,7 +33,6 @@ header {
 html,
 body {
     height: 100%;
-    width: 100%;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 1.33;
@@ -262,10 +261,10 @@ h6 {
 .header:after {
     content: '';
     position: absolute;
+    left: 0;
     bottom: 0;
-    left: -20px;
     height: 1px;
-    width: calc(100% + 40px);
+    width: 100%;
     background: #E5E5E5;
 }
 
