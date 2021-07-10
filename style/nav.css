@@ -1,0 +1,151 @@
+.nav-wrapper {
+    position: fixed ;
+    display: flex;
+    height: 100%;
+    top: 0;
+    left: -180px;
+    z-index: 3;
+    background-color: #F3F4F9;
+    transition: all .5s ease-in-out;
+}
+
+.nav-wrapper.open {
+    left: 0;
+}
+
+.nav-mobile {
+    order: 1;
+    width: 192px;
+    height: 100%;
+}
+
+.nav-common {
+    order: 4;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 106px;
+    width: 48px;
+    top: 0;
+    right: -48px;
+    cursor: pointer;
+    background-image: url("./assets/menu/menu-background.svg");
+}
+
+.nav-common__icon {
+    height: 20px;
+    width: 26px;
+    background: url("assets/icon/burger.png") no-repeat;
+}
+
+.nav-common__icon.active {
+    background: url("assets/icon/close.png") no-repeat;
+}
+
+.nav-data {
+    padding: 40px 20px;
+}
+
+.nav-data_tablet {
+    padding: 40px 40px;
+}
+
+.nav-data_desktop {
+    padding: 40px 0 40px 40px;
+}
+
+.nav-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-info__logo {
+    display: block;
+    margin-right: 5px;
+}
+
+.nav-info__title {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5em;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.nav__items {
+    margin-top: 65px;
+}
+
+.nav__item {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.nav__item_mobile {
+    margin: 21px 0;
+}
+
+.nav__item_tablet {
+    margin: 14px 0;
+}
+
+.nav__item_desktop {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 19px 0;
+}
+
+.nav__item_desktop svg {
+    margin-right: 12px;
+}
+
+.nav__item.active svg path{
+    stroke: #34ABE0;
+}
+
+.nav__item.active {
+    position: relative;
+    color: #34ABE0;
+}
+
+.nav__item.active:before {
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 0;
+    height: 22px;
+    width: 2px;
+    background-color: #34ABE0;
+}
+
+.nav__item_tablet.active:before {
+    left: -40px;
+}
+
+.nav-desktop {
+    order: 2;
+    width: 246px;
+    height: 100%;
+}
+
+.nav-tablet {
+    order:3;
+    display: block;
+}
+
+.nav-tablet.change-order {
+    order: 1;
+}
+.nav__item_desktop.active:before {
+    content: '';
+    position: absolute;
+    left: -40px;
+    top: 0;
+    height: 22px;
+    width: 2px;
+    background-color: #34ABE0;
+}
