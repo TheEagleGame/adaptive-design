@@ -30,17 +30,17 @@
     top: 0;
     right: -48px;
     cursor: pointer;
-    background-image: url("./assets/menu/menu-background.svg");
+    background-image: url("./../assets/menu/menu-background.svg");
 }
 
 .nav-common__icon {
     height: 20px;
     width: 26px;
-    background: url("assets/icon/burger.png") no-repeat;
+    background: url("./../assets/icon/burger.png") no-repeat;
 }
 
 .nav-common__icon.active {
-    background: url("assets/icon/close.png") no-repeat;
+    background: url("./../assets/icon/close.png") no-repeat;
 }
 
 .nav-data {

@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c843fc8-3bd5-4365-b492-88f9f197f199" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/style/card.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/media-query.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/nav.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/nav.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +39,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programming\adaptive-design\style" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,7 +54,8 @@
       <updated>1625658856736</updated>
       <workItem from="1625658857774" duration="15897000" />
       <workItem from="1625718635361" duration="36747000" />
-      <workItem from="1625913095178" duration="15053000" />
+      <workItem from="1625913095178" duration="15383000" />
+      <workItem from="1625997116510" duration="304000" />
     </task>
     <task id="LOCAL-00001" summary="first_commit">
       <created>1625928977511</created>
@@ -132,7 +134,21 @@
       <option name="project" value="LOCAL" />
       <updated>1625948140908</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="new_commit">
+      <created>1625950057902</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1625950057902</updated>
+    </task>
+    <task id="LOCAL-00013" summary="new_commit">
+      <created>1625950162597</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1625950162597</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,10 +163,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="new_commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1625948140214">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1625950161515">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1625948140214" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1625950161515" />
     <state x="147" y="65" key="DiffContextDialog" timestamp="1625930540204">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -159,10 +175,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1625928798035" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1625948148840">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1625950169918">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1625948148840" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1625950169918" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1625914894382">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
