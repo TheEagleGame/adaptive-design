@@ -1,21 +1,32 @@
 const navItems = document.querySelectorAll('.nav__item');
-navItems.forEach( (el,index) => el.addEventListener('click', () => {
-    navItems.forEach(el => el.classList.remove('active'))
-    if (el.classList.value === 'nav__item nav__item_tablet') {
-        navItems[index - 5].classList.add('active')
-        navItems[index - 5 - 5].classList.add('active')
+navItems.forEach((el) => el.addEventListener('click', () => {
+    const setActiveIcon = () => {
+        if (el.classList.value.includes('catalog')) {
+            return 'catalog'
+        }
+        if (el.classList.value.includes('beauty')) {
+            return 'beauty'
+        }
+        if (el.classList.value.includes('healthy')) {
+            return 'healthy'
+        }
+        if (el.classList.value.includes('adventure')) {
+            return 'adventure'
+        }
+        if (el.classList.value.includes('auto')) {
+            return 'auto'
+        }
     }
-    if (el.classList.value === 'nav__item nav__item_desktop') {
-        navItems[index + 5].classList.add('active')
-        navItems[index - 5].classList.add('active')
-    }
-    if (el.classList.value === 'nav__item nav__item_mobile') {
-        navItems[index + 5].classList.add('active')
-        navItems[index + 5 + 5].classList.add('active')
-    }
-    el.classList.add('active')
+    let activeIcon = setActiveIcon()
+    navItems.forEach(el => {
+        if (el.classList.value.includes(activeIcon)) {
+            el.classList.add('active')
+        } else {
+            el.classList.remove('active')
+        }
+
+    })
 }))
-console.log(navItems)
 
 
 const headerSearch = document.querySelector('.header-search')
@@ -38,7 +49,7 @@ const navContainer = document.querySelector('.nav-wrapper');
 const menuTablet = document.querySelector('.nav-tablet')
 let menuOpen = false;
 navIcon.addEventListener('click', () => {
-    if(!menuOpen) {
+    if (!menuOpen) {
         navContainer.classList.add('open');
         navIcon.classList.add('active');
         menuTablet.classList.add('change-order');
