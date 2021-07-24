@@ -1,4 +1,8 @@
-## Adaptive-design
+## Responsive-design
+
+#### Для создания приложения исповались следующие технологии:
+HTML5, CSS (mobile-first), Vanilla JS
+
 
 ### Приложение доступно по ссылке :
 
